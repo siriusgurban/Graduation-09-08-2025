@@ -61,6 +61,21 @@ h1 {
   transform: scale(1.05);
 }
 
+a {
+  background: #f8f9fa;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  transform: scale(1.05);
+}
+
 /* Responsive */
 @media (max-width: 500px) {
   #countdown {
